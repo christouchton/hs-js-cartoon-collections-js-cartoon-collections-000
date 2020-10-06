@@ -33,7 +33,7 @@ function findTheCheese (foods) {
   return "no cheese!";
 }  
 
-
+"Bob"[0] === "B"
 function wordsWithB (words) {
   const newWordsWithB = [];
   for (let i = 0; i <words.length; i++) {
@@ -42,3 +42,8 @@ function wordsWithB (words) {
   }
   return newWordsWithB
 }
+
+
+
+
+
