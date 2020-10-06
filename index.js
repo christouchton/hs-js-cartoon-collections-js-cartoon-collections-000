@@ -38,7 +38,7 @@ function wordsWithB (words) {
   const newWordsWithB = [];
   for (let i = 0; i <words.length; i++) {
     if words[i].startsWith("B")
-    newWordsWithB.push(`${wordsWithB[i])
+    newWordsWithB.push(words[i])
   }
-  
+  return newWordsWithB
 }
