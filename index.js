@@ -1,12 +1,14 @@
 function dwarfRollCall(dwarves) {
-  retun dwarves
+  
  const dwarfNames = [];
  for (let i = 0; i < dwarves.length; i++) {
    dwarfNames.push(`${i+1}. ${dwarves[i]} `);
  }
  return dwarfNames.join("");
 } 
-
+ const newArray =[ "John", "Bob", "Jim"]
+ newArray
+ 
 function summonCaptainPlanet(planeteerCalls){
   const yellPlaneteerCalls = [];
   for (let i = 0; i < planeteerCalls.length; i++) {
