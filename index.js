@@ -1,5 +1,5 @@
 function dwarfRollCall(dwarves) {
-  
+  retun dwarves
  const dwarfNames = [];
  for (let i = 0; i < dwarves.length; i++) {
    dwarfNames.push(`${i+1}. ${dwarves[i]} `);
